@@ -9,14 +9,15 @@ use Livewire\Component;
 
 class Insert extends Component
 {
-    public $countries, $states,
+    public $countries, $states, $page,
         $selectedCountry, $selectedState=null,
         $newCountry, $newState, $newCity;
 
     public function render(){
         return view('livewire.insert');
     }
-    public function mount(){
+    public function mount($page='country'){
+        $this->page = $page;
         $this->countries = country::all();
     }
     public function addCountry(){
