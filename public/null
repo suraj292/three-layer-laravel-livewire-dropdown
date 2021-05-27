@@ -1,15 +1,2 @@
-$country = country::all();
-$country = country::all();
-$country = App\Http\Model\country::all();
-$country = App\Http\Model\country::all();
-$country = App\Http\Model\country::all();
-$country = App\Http\Model\country::all();
-$country = new country::all();
-$country = App\Models\country
-$country = App\Models\country::();
-$country = App\Models\country::all();
-$country = App\Models\Country
-$country = App\Models\Country;
-Country::factory()->count(2)->create()
-Country::factory()->count(2)->create()
-App\Models\country::factory()->count(2)->create()
+return route('insert', 'home')
+return route('insert', 'demo1')

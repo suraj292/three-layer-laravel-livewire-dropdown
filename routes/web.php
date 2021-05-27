@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', App\Http\Livewire\Home::class)->name('home');
-Route::get('insert', \App\Http\Livewire\Insert::class)->name('insert');
+Route::get('insert/{page?}', \App\Http\Livewire\Insert::class)->name('insert');
